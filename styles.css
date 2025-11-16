@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');      
+
+body {
+    font-family: "Roboto", sans-serif; 
+    margin: 0;
+
+}
+
+
+/* Header Styling */
+
+header,
+ .hero {
+    background-color: #1F2937;
+    color: white;
+    font-weight: 900;
+    display: flex; 
+}
+
+
+img {
+    width: 360px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    background: gray;
+    border-radius: 25px;
+    
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-links {
+    color: white;
+}
+
+.logo {
+    font-weight: 300px;
+}
