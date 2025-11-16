@@ -14,18 +14,23 @@ header,
     background-color: #1F2937;
     color: white;
     font-weight: 900;
-    display: flex; 
+    display: flex;
 }
 
 
 img {
-    width: 360px;
+    width: 600px;
     height: auto;
-    margin: 10px;
-    padding: 20px;
-    background: gray;
     border-radius: 25px;
-    
+ 
+}
+
+.hero {
+    display: flex;
+    gap:60px;
+    align-items: center;
+    padding: 80px 100px;
+    justify-content: space-between;
 }
 
 button {
@@ -55,5 +60,45 @@ header {
 }
 
 .logo {
-    font-weight: 300px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 80px;
+}
+header a {
+    color: white;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 200;
+}
+  /* Main Content Styling */
+
+.information {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-box {
+    max-width: 400px;
+    text-align: center;
+}
+
+.info-box img {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
 }
